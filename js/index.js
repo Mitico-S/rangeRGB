@@ -1,6 +1,6 @@
 window.addEventListener('load', pickColor);
 
-var red, green, blue, body;
+var body;
 
 body = document.querySelector('.body');
 
