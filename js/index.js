@@ -8,9 +8,6 @@ function pickColor() {
   var $redRange = document.querySelector('#red'),
     $redValue = document.querySelector('#redSpan');
 
-
-
-    
   $redRange.addEventListener('input', function () {
     $redValue.textContent = this.value;
     body.style.backgroundColor = `rgb(${$redRange.value},${$greenRange.value}, ${$blueRange.value})`;
